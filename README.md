@@ -13,29 +13,29 @@ Descripcion de carpetas del aplicativo:
 
 
 
-*config -> se encuentra las variables estaticas globales que seran utilizadas a lo largo del aplicativo
+config -> se encuentra las variables estaticas globales que seran utilizadas a lo largo del aplicativo
 
 
-*controlador -> como su nombre lo indica, se encuentran los controladores del aplicativo, esta parte esta al pendiente de las *peticiones realizadas por el usuario, ya sea mediante la URL o peticiones enviadas por AJAX a traves de los metodos POST O GET.
+controlador -> como su nombre lo indica, se encuentran los controladores del aplicativo, esta parte esta al pendiente de las peticiones realizadas por el usuario, ya sea mediante la URL o peticiones enviadas por AJAX a traves de los metodos POST O GET.
 
 
-*fotos -> en esta seccion se encuentra las fotos quese guardan por cada usuario del sistema, por ejemplo "usuario1" guardo una foto cualquiera, la base de datos se encarga de guardar la URL de la direccion donde se encuentra la imagen en la aplicacion y la iamgen queda almacenada en fotos/usuario1/namexximagen.
+fotos -> en esta seccion se encuentra las fotos quese guardan por cada usuario del sistema, por ejemplo "usuario1" guardo una foto cualquiera, la base de datos se encarga de guardar la URL de la direccion donde se encuentra la imagen en la aplicacion y la iamgen queda almacenada en fotos/usuario1/namexximagen.
 
 
-*libs -> se puede concluir que son las clases padres encargadas de los metodos principales al momento de que el usuario hace una peticion mediante URL, alli entra hacer implementado FRONT CONTROLLER, la cual distribuye los parametros ingresados por URL ya sea hacia un controlador,metodo o parametro dentro de cada clase.
+libs -> se puede concluir que son las clases padres encargadas de los metodos principales al momento de que el usuario hace una peticion mediante URL, alli entra hacer implementado FRONT CONTROLLER, la cual distribuye los parametros ingresados por URL ya sea hacia un controlador,metodo o parametro dentro de cada clase.
 
 
-*modelo -> se encuentran los dao (data access object) y los dto (data transfer object), son consultas y la representacion mediante objetos de cada tabla de la base de datos respectivamente.
+modelo -> se encuentran los dao (data access object) y los dto (data transfer object), son consultas y la representacion mediante objetos de cada tabla de la base de datos respectivamente.
 
 
-*public -> esta carpeta contiene una serie de subcarpeta que puede ser vista por el usuario atraves de su navegador. Se encuentra, CSS -- son los estilos dados a cada vista/html del aplicativo, FONT -- contiene iconos importados desde la pagina font awesome, ICON -- iconos estaticos utilizados a lo largo del aplicativo, JS -- javaScript con su libreria JQUERY que implementa AJAX para cosultas asincronas con la base de datos.
+public -> esta carpeta contiene una serie de subcarpeta que puede ser vista por el usuario atraves de su navegador. Se encuentra, CSS -- son los estilos dados a cada vista/html del aplicativo, FONT -- contiene iconos importados desde la pagina font awesome, ICON -- iconos estaticos utilizados a lo largo del aplicativo, JS -- javaScript con su libreria JQUERY que implementa AJAX para cosultas asincronas con la base de datos.
 
 
-*vista -> se encuentra cada vista llamada por el controlador, distribuida mediante carpetas que hacen referencia hacia su controlador, por ejemplo, vista/persona -> controlador/personaControl.
+vista -> se encuentra cada vista llamada por el controlador, distribuida mediante carpetas que hacen referencia hacia su controlador, por ejemplo, vista/persona -> controlador/personaControl.
 
 
-*index-> archivo principal de ejecucion para el inicio del aplicativo, llama a las clases padres, que se encuentran en "libs".
+index-> archivo principal de ejecucion para el inicio del aplicativo, llama a las clases padres, que se encuentran en "libs".
 
 
-*redsocial.sql -> backup de la base de datos.
+redsocial.sql -> backup de la base de datos.
 
