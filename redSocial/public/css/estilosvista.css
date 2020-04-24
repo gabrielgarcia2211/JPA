@@ -1,0 +1,319 @@
+#formato{
+    display: flex;
+    border-radius: 10px; 
+    border-style: solid; 
+    width: 900px; 
+    height: 740px; 
+    margin: auto; 
+    margin-top: 25px;
+    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    background-size: 400% 300%;
+    animation: bgGradiente 5s ease infinite;
+    box-shadow: 6px 6px 6px gray;
+    -moz-box-shadow: 6px 6px 6px gray;
+    -webkit-box-shadow: 6px 6px 6px gray;
+}
+
+@keyframes bgGradiente{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+
+.navbar{
+    /* background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C); */
+    background: #082a5d;
+    background-size: 400% 300%;
+    /* animation: bgGradiente 5s ease infinite; */
+    font-family: 'Pacifico', cursive;
+
+ 
+    
+}
+
+
+.image-perfil{
+    width: 150px;
+    height: 150px;
+    border-style: inset;
+    border-radius: 50%;
+}
+.image-perfil-nav{
+    width: 40px;
+    height: 40px;
+    border-style: inset;
+    border-radius: 50%;
+}
+
+footer{
+    margin-top: 10px;
+    bottom: 0;
+    height: 100px; /* valor que necesites */
+    position: absolute;
+    width: 100%
+}
+
+
+.card-footer{
+    background-color: #082a5d;
+}
+
+.padding-info{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/* .card-img-top{
+    width:100%;
+    height:auto;
+} */
+
+.icon-action{
+    width: 32px;
+	height: 32px;
+}
+
+.objetfit > img{
+	width: 100%;
+	height: 369px;
+	object-fit: none;
+}
+
+#check {
+    width:20px;
+    height:20px;
+}
+
+textarea {
+    overflow-y: scroll;
+    resize: none;
+}
+
+.container .row a{
+     display: block;
+}
+
+.centrado-items{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-deck{
+    padding-top: 15px;
+}
+
+#pass, #usuario{
+    padding: 8px;
+    border-radius:5px ;
+    border: 1px solid rgb(95, 95, 95);
+}
+/*esta parte es cuando el usuario se pare justo en este campo*/
+#pass:focus, #usuario:focus {
+    border: 2px solid  rgb(2, 187, 101);
+    transition: all .3s linear;
+}
+/*aca quite la linea que tenias en html y la puse con css, para poder cambiar los colores y tomar diferentes tipos de lineado*/
+.row .abajo{
+    border-top: inset;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.row .btn-secondary:hover{
+    background: rgb(2, 187, 101);
+    color: white;
+}
+
+@media (max-width: 800px){
+    #imagen{
+        display: none;
+        display: md-block;
+    }
+}
+
+@media (max-width: 1300px){
+    #formato{
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 900px){
+    #formato{
+        margin-top: 0px;
+        width: 750px;
+    }
+    #formulario{
+        width: 90%;
+    }
+    #img{
+        margin-top: 30px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px){
+    #formato{
+        width: 550px;
+        margin-top: 0px;
+    }
+    #formulario{
+        width: 510px;
+    }
+    #registro{
+        margin-right: 25px;
+    }
+    #acc{
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 575px){
+    #formato{
+        width: 350px;
+        margin-top: 0px;
+    }
+    #formulario{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+}
+
+#inicio{
+    display: flex;
+    width: 1600px;
+    height: 793px;
+    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    background-size: 400% 300%;
+    animation: bgGradiente 5s ease infinite;
+}
+
+#open{
+    text-align: center;  
+    margin-top: 20px;   
+    margin-left: 235px;
+}
+
+@media (max-width: 900px){
+    #open{  
+        margin-left: 175px;
+    }
+}
+
+@media (max-width: 800px){
+    #open{  
+        margin-left: 75px;
+    }
+}
+
+@media (max-width: 575px){
+    #open{  
+        margin-left: 1px;
+    }
+
+    #fenix{
+        width: 99%;
+    }
+}
+
+#error{
+    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    background-size: 400% 300%;
+    animation: bgGradiente 5s ease infinite;
+}
+
+#fantasma{
+    margin-left: 510px;
+}
+
+@media (max-width: 1300px){
+    #fantasma{
+        margin-left: 350px;
+    }
+
+}
+
+@media (max-width: 1250px){
+    #fantasma{
+        margin-left: 300px;
+    }
+
+}
+
+@media (max-width: 1100px){
+    #fantasma{
+        margin-left: 250px;
+    }
+
+}
+
+@media (max-width: 1000px){
+    #fantasma{
+        margin-left: 240px;
+    }
+
+}
+
+@media (max-width: 900px){
+    #fantasma{
+        margin-left: 180px;
+    }
+
+}
+
+@media (max-width: 700px){
+    #fantasma{
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 600px){
+    #fantasma{
+        margin-left: 25px;
+    }
+
+}
+
+@media (max-width: 500px){
+    #fantasma{
+        margin-left: 60px;
+    }
+    #ima{
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+    #fantasma{
+        margin-left: 20px;
+    }
+    #ima{
+        width: 400px;
+    }
+}
+
+@media (max-width: 400px){
+    #fantasma{
+        margin-left: -2px;
+    }
+    #ima{
+        width: 400px;
+    }
+}
+
+@media (max-width: 350px){
+    #fantasma{
+        margin-left: -10px;
+    }
+    #ima{
+        width: 350px;
+    }
+}
+
+#hola{
+    background: linear-gradient(150deg, #CD6155, #AF7AC5, #1ABC9C);
+    background-size: 400% 300%;
+    animation: bgGradiente 5s ease infinite;
+}
