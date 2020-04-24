@@ -4,4 +4,4 @@ y como FRAMEWORK para dar estilos al CSS utilizamos bootstrap.
 
 La aplicacion esta en estado beta de desarollo por lo tanto la herramienta que utilizamos para realizarla fue XAMPP en nuestro 
 ordenador, la cual trae una serie de componenetes como Apache Web Server Versión 2.4.41,   MySQL Database Versión 8.0.17, 
-phpMyAdmin Database Manager Versión 4.9.1, el siguiente video te guiara a un tutorial simple para su descarga e instalación.
+phpMyAdmin Database Manager Versión 4.9.1.
